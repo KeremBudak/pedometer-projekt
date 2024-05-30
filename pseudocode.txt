@@ -1,0 +1,59 @@
+Wörterbuch für DUMMIES pseudocode:
+Deklaration: Definiert eine neue Klasse oder Methode.
+Initialisierung: Setzt Anfangswerte für Instanzvariablen.
+Aktualisierung: Ändert den Wert einer Variablen.
+Ausgabe: Gibt Daten an den Benutzer zurück.
+Instanziierung: Erstellt eine neue Instanz einer Klasse.
+Schleife: Wiederholt eine Gruppe von Anweisungen.
+Methodenaufruf: Ruft eine Methode auf einer Instanz einer Klasse auf.
+
+<?php
+Deklariere Klasse Pedometer {
+initialisiere die privaten variablen $DATE und $STEPS ;
+
+erstelle den Konstructor der das datum aufnimmt
+und initialisere mit $this dein $date mit dem geliefertem datum und $steps mit 0
+public funtion construct($date) 
+$this->date= $date
+$this->steps= 0
+  }
+Erstelle die public methode incremensteps, die den zähler um 1 erhöht 
+Public funktion incrementsteps(){
+$this->steps++ // aktualisiere und erhöhe um 1
+}
+Erstelle die public methode _tostring die formatiert mit return
+ein satz und gibt ihn bearbeitet wieder 
+Puclic funtion tostring(){
+Return“am“. this->date . “bin ich“ . $this->steps . “schritte gegangen.“ // 
+AM 30.05.2024 bin ich 200 schritte gegangen.
+}
+Teste den Pedometer
+erstelle new instanz mit dem datum “11.11.2011“ 
+for schleife die 1111 mal ausgeführt wird
+Ruf Incrementsteps auf um schrittzähler zu erhöhen
+$pedometer1 = new Pedometer("11.11.2011")
+for $i = 0; $i < 1111 $i++ 
+$pedometer1-> incrementsteps
+
+}
+
+Echo dein $pedometer1  und gib ihn formatiert aus 
+
+Wiederhole den prozess New istanz  mit dem beispiel wert 1.09.2017
+For schleife die 10000 mal ausgeführt wird
+aufruf der methode ncrementsteps um zu erhöhen
+}
+
+ausgabe mit echo des formatierten Ergebnisses
+
+?>
+
+
+War mein erstes mal sei gnädig :P
+Küsschen kerem
+
+
+
+
+
+
